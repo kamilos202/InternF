@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+        <h2>Json INPUT</h2>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" name="text" size="25">
+            
+        </form>
+        <h2>{{ json }}</h2>
+    </div>
+{% endblock %}
