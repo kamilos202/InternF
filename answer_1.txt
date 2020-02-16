@@ -1,0 +1,8 @@
+To avoid keeping credentials in plain text we can store them in separate, encrypted  confg file.
+Then proper permissions for that file should be set.
+
+In addition cofg file can be kept outside the root directory of our project.
+
+Passwords can be hashed but for better security salts should be used.
+
+To additionaly secure hashes "peppers" can be used which make hashes even more difficult to crack.
