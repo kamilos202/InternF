@@ -1,0 +1,3 @@
+AWS provides sth like Elastic Block Storage (EBS) to protect data. 
+We can use encrypted file systems such as EncFS, EFS NTFS
+AWS key managament service can be used to create encryption keys
